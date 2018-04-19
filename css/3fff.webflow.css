@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #404040;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.section-full {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20%;
+  padding-bottom: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #404040;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .69), rgba(0, 0, 0, .69)), url('../images/fondo_filtro.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .69), rgba(0, 0, 0, .69)), url('../images/fondo_filtro.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  text-align: center;
+}
+
+.p {
+  margin-bottom: 17px;
+  color: hsla(0, 0%, 100%, .5);
+  font-size: 12px;
+}
+
+.p.white {
+  color: hsla(0, 0%, 100%, .89);
+}
+
+.icon-mail {
+  opacity: 0.54;
+}
+
+.icon-fb {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.link {
+  width: 40px;
+  height: 40px;
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.div-block {
+  height: 40px;
+}
+
+.marca {
+  max-width: 80%;
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .marca {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 479px) {
+  .marca {
+    max-width: 50%;
+  }
+}
